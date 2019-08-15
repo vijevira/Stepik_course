@@ -1,0 +1,6 @@
+CODE CHALLENGE: Finding an Element in an Arbitrary Array List
+Ans:
+def find(arr, n):
+    if n in arr:
+        return True
+    return False

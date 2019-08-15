@@ -1,0 +1,7 @@
+def insert(head, newnode, index):
+    x=head
+    for i in range (index-1):
+        x=x.next
+    newnode.next=x.next
+    x.next=newnode
+       

@@ -1,0 +1,6 @@
+def find(node, element):
+    while node is not None:
+        if node.value==element:
+            return True
+        node=node.next
+    return False

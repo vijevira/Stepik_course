@@ -1,0 +1,8 @@
+def remove(head, index):
+    x=head
+    for i in range (index-1):
+        x=x.next
+    p=x.next
+    x.next=p.next
+    p.next=None
+    del p

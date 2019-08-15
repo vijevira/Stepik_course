@@ -1,0 +1,20 @@
+CODE CHALLENGE: Using the C++ random number generator rand(), implement a fair coin that outputs either 1 or 0 with equal probability. 
+Do not seed the random number generator within the function you will be implementing! We will seed the random number generator for you.
+Ans:
+def flipCoin():
+    return randint(0,1)
+    
+
+CODE CHALLENGE: Using the C++ random number generator rand(), implement a fair k-sided die that outputs one of the numbers from 1 through k, inclusive, with equal probability. 
+Do not seed the random number generator within the function you will be implementing! We will seed the random number generator for you.
+Ans:
+def rollDie(k):
+ return (randint(1, k))
+
+
+CODE CHALLENGE: Using the C++ random number generator rand(), implement a biased coin that outputs 1 with probability p and 0 with probability 1–p. 
+Do not seed the random number generator within the function you will be implementing! We will seed the random number generator for you. 
+If the notion of a "biased coin" is unclear to you, be sure to read about the Bernoulli distribution for more information.
+Ans:
+import random
+random.uniform(0,1)

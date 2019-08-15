@@ -1,0 +1,11 @@
+Q: Given an integer n, return the sum of the integers from 1 to n (inclusive).
+Ans:
+def addNums(n):
+    return int(n*(n+1)/2)
+    # YOUR CODE HERE
+
+Q: Given an integer n, create a new vector, add all of the numbers from 1 to n (inclusive) to the vector, and then return the vector.
+For the Python version of this challenge, you should return a list of integers.
+Ans:
+def createVector(n):
+    return list(range(1,n+1))
